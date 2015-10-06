@@ -5,9 +5,8 @@ require "pry"
 module Hangr
   # Your code goes here...
 
-  class Foo
+  class Player < ActiveRecord::Base
   end
 end
 
 binding.pry
-
